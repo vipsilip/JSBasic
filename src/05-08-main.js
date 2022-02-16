@@ -35,3 +35,4 @@ console.log(isPositiveEvenNumber(5));
 function isPositiveEvenNumber(n) {
   return n > 0 && n % 2 === 0;
 }
+console.log(isPositiveEvenNumber(5));
