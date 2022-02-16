@@ -30,7 +30,7 @@ function ClassifyStudent(mark) {
 //c3
 function ClassifyStudent(mark) {
   //validate arguments-kiem tra tham so dau vao
-  if (mark < 0 || mark > 10) return '';
+  if (mark < 0 || mark > 10) return 'not available';
   //main
   if (mark > 8) return 'excellence';
   if (mark >= 7) return 'good';
@@ -38,4 +38,4 @@ function ClassifyStudent(mark) {
   return 'bad';
 }
 
-console.log(ClassifyStudent(10));
+console.log(ClassifyStudent(7));

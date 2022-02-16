@@ -4,8 +4,7 @@ function getError(errorCode) {
     E02: 'Too many attempts',
     E03: 'Missing data',
   };
-  const message = errorMap[errorCode] || 'something went wrong';
-  return message;
+  return errorMap[errorCode] || 'something went wrong';
 }
 console.log(getError('E01'));
 console.log(getError('E02'));
