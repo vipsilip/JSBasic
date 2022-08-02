@@ -3,7 +3,7 @@
 //ky thuat cờ hiệu
 //cach 1
 function isPositiveEvenNumber(n) {
-  let isValid;
+  let isValid; //undefine
 
   if (n > 0 && n % 2 === 0) {
     isValid = true;
